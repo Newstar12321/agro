@@ -1,0 +1,4 @@
+class culture {
+    var name = ""
+
+}

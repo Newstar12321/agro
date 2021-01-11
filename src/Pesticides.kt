@@ -1,0 +1,3 @@
+class Pesticides {
+    var name = ""
+}
