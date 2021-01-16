@@ -1,5 +1,5 @@
-class Cornfield {
+class Cornfield (){
     var area = 500
-
-    var currentCulture: culture = culture()
+    var currentCulture: Culture = Culture("")
+    var currentPest = Pesticides("")
 }

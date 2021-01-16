@@ -1,4 +1,0 @@
-class culture {
-    var name = ""
-
-}

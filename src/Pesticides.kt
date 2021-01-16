@@ -1,3 +1,3 @@
-class Pesticides {
-    var name = ""
+class Pesticides(var name: String){
+
 }
