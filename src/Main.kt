@@ -1,6 +1,6 @@
 fun main(){
-    val culture1: Culture= Culture("Пшено")
-    val culture2: Culture= Culture("Греча")
+    val culture1 = Culture("Пшено")
+    val culture2 = Culture("Греча")
     var view = View()
     view.show()
 
@@ -37,5 +37,5 @@ fun main(){
     view.selectPest()
 
     println("За сколько толкнём товар?:")
-    println("Прибыль составила ${view.sell(readLine()!!.toInt())}")
+    println("Прибыль составила ${view.sell(readLine()!!.toInt())} рубликов")
 }
