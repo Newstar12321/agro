@@ -9,7 +9,12 @@ class View{
     fun selectCulture(){
         println("Вы выбрали '${cornfield.currentCulture.name}'")
     }
+
     fun selectPest(){
         println("Используемые пестициды: '${cornfield.currentPest.name}'")
+    }
+
+    fun sell(x: Int): Int {
+        return x * cornfield.area
     }
 }

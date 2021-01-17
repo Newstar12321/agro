@@ -36,4 +36,6 @@ fun main(){
 
     view.selectPest()
 
+    println("За сколько толкнём товар?:")
+    println("Прибыль составила ${view.sell(readLine()!!.toInt())}")
 }
