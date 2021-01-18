@@ -12,8 +12,8 @@ fun main(){
     var userCulture = readLine()!!.toInt()
     when(userCulture){
 
-        1 -> {view.cornfield.currentCulture.name = culture1.name }
-        2 -> {view.cornfield.currentCulture.name = culture2.name }
+        1 -> {view.cornfield.currentCulture = culture1}
+        2 -> {view.cornfield.currentCulture = culture2}
     }
 
     view.selectCulture()
@@ -30,8 +30,8 @@ fun main(){
     var userPest = readLine()!!.toInt()
 
     when(userPest){
-        1-> {view.cornfield.currentPest.name = pesticides1.name}
-        2-> {view.cornfield.currentPest.name = pesticides2.name}
+        1-> {view.cornfield.currentPest = pesticides1}
+        2-> {view.cornfield.currentPest = pesticides2}
     }
 
     view.selectPest()
